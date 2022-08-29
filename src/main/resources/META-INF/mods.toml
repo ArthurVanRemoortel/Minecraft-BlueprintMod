@@ -1,0 +1,31 @@
+modLoader="javafml" #mandatory
+loaderVersion="[35,)"
+license="All rights reserved"
+issueTrackerURL="http://my.issue.tracker/"
+
+[[mods]]
+modId="javaadvancedmod"
+version="$1.16.4-1.0.0"
+displayName="Java Advanced Mod" #mandatory
+updateJSONURL="http://myurl.me/" #optional
+displayURL="http://example.com/" #optional
+logoFile="examplemod.png" #optional
+credits="Thanks for this example mod goes to Java" #optional
+authors="Arthur Van Remoortel" #optional
+description='''
+Java Advanced Mod
+'''
+
+[[dependencies.examplemod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[35,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"
